@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace CodilityLessonsCSharp
 {
@@ -7,11 +9,13 @@ namespace CodilityLessonsCSharp
         static void Main(string[] args)
         {
             //RunBinaryGapSolution();
-            RunCyclicRotationSolution();
+            //RunCyclicRotationSolution();
+            RunOddOccurrencesInArraySolution();
         }
 
         private static void RunCyclicRotationSolution()
         {
+            Console.WriteLine("Cyclic Rotation Solution ");
             CyclicRotationSolution s = new CyclicRotationSolution();
             int[] arr = new int[] {3, 8, 9, 7, 6};
             var result = s.solution(arr, 3);
@@ -34,6 +38,14 @@ namespace CodilityLessonsCSharp
             Console.WriteLine("Expected: 0 Result: " + s.solution(0));
             Console.WriteLine("Expected: 0 Result: " + s.solution(-1));
             Console.WriteLine("Expected: 0 Result: " + s.solution(32));
+        }
+
+        private static void RunOddOccurrencesInArraySolution()
+        {
+            OddOccurrencesInArraySolution s = new OddOccurrencesInArraySolution();
+            int[] arr = new int[] {9, 3, 9, 3, 9, 7, 9};
+            Console.WriteLine(s.solution(arr));
+
         }
     }
 }
