@@ -1,0 +1,13 @@
+E:\Repos\Codility\CodilityLessonsCSharp\CodilityLessonsCSharp\bin\Debug\netcoreapp3.1\CodilityLessonsCSharp.exe
+E:\Repos\Codility\CodilityLessonsCSharp\CodilityLessonsCSharp\bin\Debug\netcoreapp3.1\CodilityLessonsCSharp.deps.json
+E:\Repos\Codility\CodilityLessonsCSharp\CodilityLessonsCSharp\bin\Debug\netcoreapp3.1\CodilityLessonsCSharp.runtimeconfig.json
+E:\Repos\Codility\CodilityLessonsCSharp\CodilityLessonsCSharp\bin\Debug\netcoreapp3.1\CodilityLessonsCSharp.runtimeconfig.dev.json
+E:\Repos\Codility\CodilityLessonsCSharp\CodilityLessonsCSharp\bin\Debug\netcoreapp3.1\CodilityLessonsCSharp.dll
+E:\Repos\Codility\CodilityLessonsCSharp\CodilityLessonsCSharp\bin\Debug\netcoreapp3.1\CodilityLessonsCSharp.pdb
+E:\Repos\Codility\CodilityLessonsCSharp\CodilityLessonsCSharp\obj\Debug\netcoreapp3.1\CodilityLessonsCSharp.csprojAssemblyReference.cache
+E:\Repos\Codility\CodilityLessonsCSharp\CodilityLessonsCSharp\obj\Debug\netcoreapp3.1\CodilityLessonsCSharp.AssemblyInfoInputs.cache
+E:\Repos\Codility\CodilityLessonsCSharp\CodilityLessonsCSharp\obj\Debug\netcoreapp3.1\CodilityLessonsCSharp.AssemblyInfo.cs
+E:\Repos\Codility\CodilityLessonsCSharp\CodilityLessonsCSharp\obj\Debug\netcoreapp3.1\CodilityLessonsCSharp.csproj.CoreCompileInputs.cache
+E:\Repos\Codility\CodilityLessonsCSharp\CodilityLessonsCSharp\obj\Debug\netcoreapp3.1\CodilityLessonsCSharp.dll
+E:\Repos\Codility\CodilityLessonsCSharp\CodilityLessonsCSharp\obj\Debug\netcoreapp3.1\CodilityLessonsCSharp.pdb
+E:\Repos\Codility\CodilityLessonsCSharp\CodilityLessonsCSharp\obj\Debug\netcoreapp3.1\CodilityLessonsCSharp.genruntimeconfig.cache
