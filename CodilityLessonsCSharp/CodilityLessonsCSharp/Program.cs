@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace CodilityLessonsCSharp
 {
@@ -11,11 +10,21 @@ namespace CodilityLessonsCSharp
             //RunBinaryGapSolution();
             //RunCyclicRotationSolution();
             //RunOddOccurrencesInArraySolution();
-            RunFrogJumpSolution();
+            //RunFrogJumpSolution();
+            RunMissingElementSolution();
+        }
+
+        private static void RunMissingElementSolution()
+        {
+            Console.WriteLine("Missing Element Solution");
+            int[] arr = new int[] {2, 3, 1, 5};
+            MissingElementSolution s = new MissingElementSolution();
+            Console.WriteLine(s.solution(arr));
         }
 
         private static void RunFrogJumpSolution()
         {
+            Console.WriteLine("Frog Jump Solution");
             FrogJumpSolution s = new FrogJumpSolution();
             Console.WriteLine(s.solution(10, 85, 30));
         }
