@@ -10,7 +10,14 @@ namespace CodilityLessonsCSharp
         {
             //RunBinaryGapSolution();
             //RunCyclicRotationSolution();
-            RunOddOccurrencesInArraySolution();
+            //RunOddOccurrencesInArraySolution();
+            RunFrogJumpSolution();
+        }
+
+        private static void RunFrogJumpSolution()
+        {
+            FrogJumpSolution s = new FrogJumpSolution();
+            Console.WriteLine(s.solution(10, 85, 30));
         }
 
         private static void RunCyclicRotationSolution()
