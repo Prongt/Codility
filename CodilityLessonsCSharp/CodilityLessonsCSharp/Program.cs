@@ -6,7 +6,18 @@ namespace CodilityLessonsCSharp
     {
         static void Main(string[] args)
         {
-            RunBinaryGapSolution();
+            //RunBinaryGapSolution();
+            RunCyclicRotationSolution();
+        }
+
+        private static void RunCyclicRotationSolution()
+        {
+            CyclicRotationSolution s = new CyclicRotationSolution();
+            int[] arr = new int[] {3, 8, 9, 7, 6};
+            var result = s.solution(arr, 3);
+
+            //Input [3, 8, 9, 7, 6] Result [9, 7, 6, 3, 8]
+            Console.WriteLine("[{0}]", string.Join(", ", result));
         }
 
         private static void RunBinaryGapSolution()
