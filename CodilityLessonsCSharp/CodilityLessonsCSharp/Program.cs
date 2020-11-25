@@ -12,8 +12,15 @@ namespace CodilityLessonsCSharp
             //RunFrogJumpSolution();
             //RunMissingElementSolution();
             //RunMissingIntegerSolution();
+            //RunCountDivSolution();
+            RunDistinctSolution();
+        }
 
-            RunCountDivSolution();
+        private static void RunDistinctSolution()
+        {
+            int[] arr = {2, 1, 1, 2, 3, 1};
+            DistinctSolution s = new DistinctSolution();
+            Console.WriteLine(s.solution(arr));
         }
 
         private static void RunCountDivSolution()

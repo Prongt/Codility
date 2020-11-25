@@ -16,11 +16,9 @@ namespace CodilityLessonsCSharp
                 hashSet.Add(A[i]);
 
                 if (A[i] == minValidInt)
-                {
                     while (hashSet.Contains(++minValidInt))
                     {
                     }
-                }
             }
 
             return minValidInt;
