@@ -11,8 +11,15 @@ namespace CodilityLessonsCSharp
             //RunOddOccurrencesInArraySolution();
             //RunFrogJumpSolution();
             //RunMissingElementSolution();
+            //RunMissingIntegerSolution();
 
-            RunMissingIntegerSolution();
+            RunCountDivSolution();
+        }
+
+        private static void RunCountDivSolution()
+        {
+            CountDivSolution s = new CountDivSolution();
+            Console.WriteLine(s.solution(6, 11, 2));
         }
 
         private static void RunMissingIntegerSolution()
