@@ -1,23 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace CodilityLessonsCSharp
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //RunBinaryGapSolution();
             //RunCyclicRotationSolution();
             //RunOddOccurrencesInArraySolution();
             //RunFrogJumpSolution();
-            RunMissingElementSolution();
+            //RunMissingElementSolution();
+
+            RunMissingIntegerSolution();
+        }
+
+        private static void RunMissingIntegerSolution()
+        {
+            int[] arr = {1, 3, 6, 4, 1, 2};
+            MissingIntegerSolution s = new MissingIntegerSolution();
+            Console.WriteLine(s.solution(arr));
         }
 
         private static void RunMissingElementSolution()
         {
             Console.WriteLine("Missing Element Solution");
-            int[] arr = new int[] {2, 3, 1, 5};
+            int[] arr = {2, 3, 1, 5};
             MissingElementSolution s = new MissingElementSolution();
             Console.WriteLine(s.solution(arr));
         }
@@ -33,8 +41,8 @@ namespace CodilityLessonsCSharp
         {
             Console.WriteLine("Cyclic Rotation Solution ");
             CyclicRotationSolution s = new CyclicRotationSolution();
-            int[] arr = new int[] {3, 8, 9, 7, 6};
-            var result = s.solution(arr, 3);
+            int[] arr = {3, 8, 9, 7, 6};
+            int[] result = s.solution(arr, 3);
 
             //Input [3, 8, 9, 7, 6] Result [9, 7, 6, 3, 8]
             Console.WriteLine("[{0}]", string.Join(", ", result));
@@ -59,9 +67,8 @@ namespace CodilityLessonsCSharp
         private static void RunOddOccurrencesInArraySolution()
         {
             OddOccurrencesInArraySolution s = new OddOccurrencesInArraySolution();
-            int[] arr = new int[] {9, 3, 9, 3, 9, 7, 9};
+            int[] arr = {9, 3, 9, 3, 9, 7, 9};
             Console.WriteLine(s.solution(arr));
-
         }
     }
 }
