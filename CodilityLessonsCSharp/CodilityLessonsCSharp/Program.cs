@@ -14,8 +14,16 @@ namespace CodilityLessonsCSharp
             //RunMissingIntegerSolution();
             //RunCountDivSolution();
             //RunDistinctSolution();
+            //RunFishSolution();
 
-            RunFishSolution();
+            RunDominatorSolution();
+        }
+
+        private static void RunDominatorSolution()
+        {
+            int[] arr = {3, 4, 3, 2, 3, -1, 3, 3};
+            DominatorSolution s = new DominatorSolution();
+            Console.WriteLine(s.solution(arr));
         }
 
         private static void RunFishSolution()
