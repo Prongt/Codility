@@ -13,7 +13,18 @@ namespace CodilityLessonsCSharp
             //RunMissingElementSolution();
             //RunMissingIntegerSolution();
             //RunCountDivSolution();
-            RunDistinctSolution();
+            //RunDistinctSolution();
+
+            RunFishSolution();
+        }
+
+        private static void RunFishSolution()
+        {
+            int[] arrA = {4, 3, 2, 1, 5};
+            int[] arrB = {0, 1, 0, 0, 0};
+
+            FishSolution s = new FishSolution();
+            Console.WriteLine(s.solution(arrA, arrB));
         }
 
         private static void RunDistinctSolution()
